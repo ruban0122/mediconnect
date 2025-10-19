@@ -1,16 +1,59 @@
 # MediConnect – Smart Clinic App with AI Chatbot 💬🏥
 
-A new Flutter project.
+MediConnect is a telehealth mobile app built using Flutter and Firebase, featuring an AI chatbot that assists patients with clinic appointments, online consultation, and medical inquiries.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Key Features
 
-A few resources to get you started if this is your first Flutter project:
+### 🧑‍⚕️ 1. Smart AI Chatbot Assistant
+- Provides instant responses to patient questions using **Meta AI (Llama AI)**.  
+- Answers general health-related questions.  
+- Provides medical FAQs (e.g., symptoms, prevention tips).  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 📅 2. Appointment Booking System
+- Patients can view available doctors and select appointment slots.  
+- Doctors can manage and approve/reject appointments.  
+- Real-time updates and confirmation through Firebase.  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 📈 3. Online Consultation
+- Patients can choose online consultation methods like **video calling** or **chatting**.  
+- Patients and doctors can have secure communication through video or chat.  
+
+### 📜 4. Patient Medical History
+- Patients can view or edit their health records.  
+- Doctors can review patient visit records for better diagnosis.  
+
+### 🔔 5. Notification System
+- Notifications are sent in real-time using **Firebase Cloud Messaging (FCM)**.  
+- Patients and doctors receive reminders **30 minutes, 15 minutes, and 1 minute** before appointment time.  
+
+### ⚙️ 6. Stripe Payment Gateway
+- Patients can book appointments securely using their card via **Stripe Payment Gateway**.  
+
+---
+
+## 👥 User Roles
+
+### 🧍 1) Patient
+- Register and log in securely via **Firebase Authentication**.  
+- Chat with the built-in AI assistant for health inquiries.  
+- Book, view, and cancel online consultation appointments.  
+- View and edit personal health reports.  
+- Receive notifications for appointment reminders.  
+- Choose medication **self-collection option**.  
+
+### 🩺 2) Doctor
+- Register and log in securely via **Firebase Authentication**.  
+- View and manage patient appointment bookings.  
+- Approve, reject, or reschedule appointments.  
+- Join booked consultations (video or chat).  
+- Access patient health history.  
+- Update diagnosis or medical remarks after consultations.  
+
+### 💁‍♀️ 3) Clinic Assistant
+- Review registered doctor accounts for approval.  
+- Scan **QR Code prescription** shown by patients.  
+- Update prescription collection status.
+
+## 📱 App Screenshots
