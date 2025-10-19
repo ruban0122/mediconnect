@@ -57,3 +57,7 @@ MediConnect is a telehealth mobile app built using Flutter and Firebase, featuri
 - Update prescription collection status.
 
 ## 📱 App Screenshots
+
+| ![Login](screenshots/loginScreen.png) | ![Chatbot](screenshots/homeScreen.png) | ![Booking](screenshots/HealthRecordScreen.png) |
+| ![Login](screenshots/AIChatbotScreen.png) | ![Chatbot](screenshots/listOfDoctorsScreen.png) | ![Booking](screenshots/AppointmentBookingScreen.png) |
+| ![Login](screenshots/videoCallInterface.png) | ![Chatbot](screenshots/chattingInterface.png) | ![Booking](screenshots/PrescriptionQRCodeScreen.png) |
