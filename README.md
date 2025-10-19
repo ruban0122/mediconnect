@@ -1,4 +1,4 @@
-# mediconnect
+# MediConnect – Smart Clinic App with AI Chatbot 💬🏥
 
 A new Flutter project.
 
